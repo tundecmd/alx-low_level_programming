@@ -3,7 +3,7 @@
 
 /**
  * print_array - print an array
- * @a: the array to print.
+ * @a: the array to print
  * @n: array's length
  */
 void print_array(int *a, int n)
@@ -18,5 +18,5 @@ void print_array(int *a, int n)
 			printf(", ");
 		}
 	}
-	printf('\n');
+	printf("\n");
 }
