@@ -5,7 +5,7 @@
  * @s: char parameter
  * Return: integer string of a string
  **/
-int _strlen(char *5)
+int _strlen(char *s)
 {
-	return (strlen(5));
+	return (strlen(s));
 }
