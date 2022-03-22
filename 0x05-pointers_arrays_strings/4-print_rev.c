@@ -6,17 +6,13 @@
  */
 void print_rev(char *s)
 {
-	int len = 0;
+	int i = 0;
+	int len;
 	/* Get the length of the string */
-	while (1 == 1)
+
+	for (len = 0; s[len] != '\0'; len++)
 	{
-		if (*(s + len) == '\0')
-			break;
-		len++;
-	}
-	for (len; len >= 0; len--)
-	{
-		_putchar(s[len]);
+		_putchar(s[i]);
 		_putchar('\n');
 	}
 }
