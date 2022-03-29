@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  *_strstr - find a string in a string.
  *@haystack: first string.
@@ -31,5 +32,4 @@ char *_strstr(char *haystack, char *needle)
 	}
 
 	return (0);
-
 }
