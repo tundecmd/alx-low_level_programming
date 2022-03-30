@@ -11,7 +11,7 @@ int prime_checker(int i, int n)
 {
 	if (i == n)
 		return (1);
-	else if (n % 1 == 0)
+	else if (n % i == 0)
 		return (0);
 	return (prime_checker(i + 1, n));
 }
