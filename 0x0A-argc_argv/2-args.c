@@ -1,6 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+/**
+ * main - print argv arguments
+ * @argc: array length
+ * @argv: array
+ * Return: 0
+ */
+
 int main(int argc, char *argv[])
 {
 	(void)argc;
