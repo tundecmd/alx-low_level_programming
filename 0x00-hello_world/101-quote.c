@@ -4,7 +4,7 @@
 /*
  * main - prints some string to the standard error.
  *
- * Return: return 1.
+ * Return: Always 1 (Success)
  *
  */
 
