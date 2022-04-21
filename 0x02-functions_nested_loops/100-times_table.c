@@ -17,7 +17,8 @@ for (j = 0; j <= n; j++)
 r = i * j;
 if ((r > 9) && (r < 100))
 {
-_putchar((r / 10) + '0'); _putchar((r % 10) + '0');
+_putchar((r / 10) + '0');
+_putchar((r % 10) + '0');
 }
 else if (r < 10)
 {
@@ -41,7 +42,6 @@ else if ((i * (j + 1)) >= 100)
 _putchar(' ');
 else
 {
-_putchar(' ');
 _putchar(' ');
 _putchar(' ');
 }}}
