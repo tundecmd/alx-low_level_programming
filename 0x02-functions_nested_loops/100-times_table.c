@@ -19,12 +19,10 @@ if ((r > 9) && (r < 100))
 {
 _putchar((r / 10) + '0');
 _putchar((r % 10) + '0');
-}
-else if (r < 10)
+}else if (r < 10)
 {
 _putchar(r + '0');
-}
-else
+}else
 {
 _putchar((r / 100) + '0');
 _putchar(((r / 10) % 10) + '0');
