@@ -46,10 +46,6 @@ else
 _putchar(' ');
 _putchar(' ');
 _putchar(' ');	
-}	
-}	
-}
+}}}
 _putchar('\n');	
-}
-}	
-}
+}}}
