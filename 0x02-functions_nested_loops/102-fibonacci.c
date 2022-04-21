@@ -7,26 +7,26 @@
  */
 int main(void)
 {
-  int i;
-  long int pf, af, f;
+int i;
+long int pf, af, f;
 
-  pf = 1;
-  af = 2;
-  printf("1, ");
-  printf("2, ");
-  for (i = 0; i < 48; i++)
-  {
-    f = pf + af;
-    pf = af;
-    af = f;
-    if (i != 47)
-    {
-      printf("%ld, ", f);
-    }
-    else
-    {
-      printf("%ld\n", f);
-    }
-  }
-  return (0);
+pf = 1;
+af = 2;
+printf("1, ");
+printf("2, ");
+for (i = 0; i < 48; i++)
+{
+f = pf + af;
+pf = af;
+af = f;
+if (i != 47)
+{
+printf("%ld, ", f);
+}
+else
+{
+printf("%ld\n", f);
+}
+}
+return (0);
 }
