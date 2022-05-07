@@ -1,6 +1,6 @@
 #include "main.h"
 
-/*
+/**
  * read_textfile -reads a text file and prints it to the standard output
  * @filename: name of the file to be read
  * @letters: number of letters to be read and print
@@ -20,7 +20,7 @@ ssize_t read_textfile()const char *filename, size_t letters)
 	fd = open(filename, O_RDONLY);
 	if (fd < 0)
 	{
-		return 0;
+		return (0);
 	}
 	buf = malloc(sizeof(char) * letters);
 	if (!buf)
